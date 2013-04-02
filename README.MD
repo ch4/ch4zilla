@@ -1,0 +1,8 @@
+ch4zilla
+
+The goal of this project is to make a lean SFTP file downloading client for Windows.
+
+Priorities:
+1. Massive multithreading with file resume
+2. Low CPU usage
+3. Minimal GUI
