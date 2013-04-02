@@ -93,15 +93,15 @@ bool COptionsPageTransfer::Validate()
 	wxTextCtrl* pCtrl;
 
 	pCtrl = XRCCTRL(*this, "ID_NUMTRANSFERS", wxTextCtrl);
-	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 1 || tmp > 10)
+	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 1 || tmp > 100)
 		return DisplayError(pCtrl, _("Please enter a number between 1 and 10 for the number of concurrent transfers."));
 
 	pCtrl = XRCCTRL(*this, "ID_NUMDOWNLOADS", wxTextCtrl);
-	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 0 || tmp > 10)
+	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 0 || tmp > 100)
 		return DisplayError(pCtrl, _("Please enter a number between 0 and 10 for the number of concurrent downloads."));
 
 	pCtrl = XRCCTRL(*this, "ID_NUMUPLOADS", wxTextCtrl);
-	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 0 || tmp > 10)
+	if (!pCtrl->GetValue().ToLong(&tmp) || tmp < 0 || tmp > 100)
 		return DisplayError(pCtrl, _("Please enter a number between 0 and 10 for the number of concurrent uploads."));
 
 	pCtrl = XRCCTRL(*this, "ID_DOWNLOADLIMIT", wxTextCtrl);
