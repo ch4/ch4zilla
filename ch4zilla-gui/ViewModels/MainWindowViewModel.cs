@@ -7,85 +7,55 @@ using ch4zilla_gui.Models;
 namespace ch4zilla_gui.ViewModels {
     public class MainWindowViewModel : BaseViewModel {
         #region Properties
-
-        #region MyDateTime
-
-        private DateTime _myDateTime;
-        public DateTime MyDateTime {
-            get { return _myDateTime; }
+		
+		private string serverhostname;
+		public string ServerHostName { 
+			get { return serverhostname; }
             set {
-                if (_myDateTime != value) {
-                    _myDateTime = value;
-                    RaisePropertyChanged(() => MyDateTime);
+                if (serverhostname != value) {
+                    serverhostname = value;
+                    RaisePropertyChanged(() => ServerHostName);
                 }
             }
-        }
-
-        #endregion
-
-        #region PersonsCollection
-
-        private ObservableCollection<Person> _personsCollection;
-        public ObservableCollection<Person> PersonsCollection {
-            get { return _personsCollection; }
+		}
+		
+		private string username;
+		public string Username { 
+			get { return username; }
             set {
-                if (_personsCollection != value) {
-                    _personsCollection = value;
-                    RaisePropertyChanged(() => PersonsCollection);
+                if (username != value) {
+                    username = value;
+                    RaisePropertyChanged(() => Username);
                 }
             }
-        }
-
-        #endregion
+		}
+		private string password;
+		public string Password { 
+			get { return password; }
+            set {
+                if (password != value) {
+                    password = value;
+                    RaisePropertyChanged(() => Password);
+                }
+            }
+		}
 
         #endregion
 
         #region Commands
 
-        public ICommand RefreshDateCommand { get { return new DelegateCommand(OnRefreshDate); } }
-        public ICommand RefreshPersonsCommand { get { return new DelegateCommand(OnRefreshPersons); } }
-        public ICommand DoNothingCommand { get { return new DelegateCommand(OnDoNothing, CanExecuteDoNothing); } }
+        public ICommand ConnectCommand { get { return new DelegateCommand(OnConnect); } }
 
         #endregion
 
         #region Ctor
         public MainWindowViewModel() {
-            RandomizeData();
         }
         #endregion
 
         #region Command Handlers
-
-        private void OnRefreshDate() {
-            MyDateTime = DateTime.Now;
+        private void OnConnect() {
         }
-
-        private void OnRefreshPersons() {
-            RandomizeData();
-        }
-
-        private void OnDoNothing() {
-        }
-
-        private bool CanExecuteDoNothing() {
-            return false;
-        }
-
         #endregion
-
-        private void RandomizeData() {
-            PersonsCollection = new ObservableCollection<Person>();
-
-            for (var i = 0; i < 10; i++) {
-                PersonsCollection.Add(new Person(
-                    RandomHelper.RandomString(10, true),
-                    RandomHelper.RandomInt(1, 43),
-                    RandomHelper.RandomBool(),
-                    RandomHelper.RandomNumber(50, 180, 1),
-                    RandomHelper.RandomDate(new DateTime(1980, 1, 1), DateTime.Now),
-                    RandomHelper.RandomColor()
-                    ));
-            }
-        }
     }
 }
