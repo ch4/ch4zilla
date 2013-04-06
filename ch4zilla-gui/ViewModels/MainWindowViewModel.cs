@@ -40,6 +40,28 @@ namespace ch4zilla_gui.ViewModels {
             }
 		}
 
+        private ObservableCollection<FileModel> remoteFiles;
+        public ObservableCollection<FileModel> RemoteFiles {
+            get { return remoteFiles; }
+            set {
+                if (remoteFiles != value) {
+                    remoteFiles = value;
+                    RaisePropertyChanged(() => RemoteFiles);
+                }
+            }
+        }
+
+        private ObservableCollection<FileModel> localFiles;
+        public ObservableCollection<FileModel> LocalFiles {
+            get { return localFiles; }
+            set {
+                if (localFiles != value) {
+                    localFiles = value;
+                    RaisePropertyChanged(() => LocalFiles);
+                }
+            }
+        }
+
         #endregion
 
         #region Commands
@@ -50,6 +72,8 @@ namespace ch4zilla_gui.ViewModels {
 
         #region Ctor
         public MainWindowViewModel() {
+            remoteFiles = new ObservableCollection<FileModel>();
+            remoteFiles.Add(new FileModel("nothing here!", "", 0));
         }
         #endregion
 
