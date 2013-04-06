@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\SshNet.shfbproj" started="1/8/2013 11:30:56 PM">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: H:\Projects\Renci\SshNet\Renci.SshNet\bin\Debug\Renci.SshNet.dll
+    Found assembly &#39;H:\Projects\Renci\SshNet\Renci.SshNet\bin\Debug\Renci.SshNet.dll&#39;
+Source: H:\Projects\Renci\SshNet\Renci.SshNet\bin\Debug\Renci.SshNet.xml
+
+Copying XML comments files
+    H:\Projects\Renci\SshNet\Renci.SshNet\bin\Debug\Renci.SshNet.xml -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Renci.SshNet.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0190
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0280
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Info: Wrote information on 13 namespaces, 157 types, and 1363 members
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:04.6746
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0110
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    29 attribute nodes removed
+    0 explicit interface implementations removed
+    4 local and base class EII elements removed
+    Last step completed in 00:00:00.3745
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:05.5285
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.6181
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\1_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\2_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\close.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\footer_slice.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\info_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\online_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\open.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\search.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\search_bk.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\tabLeftBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\tabRightBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\ui_om_collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\ui_om_expand.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+Copying help branding...
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\body.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\head.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\CodeSnippet.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\Identity.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\InstrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\LanguageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-zh-TW.xslt
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding.xml
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-body.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-head.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-foot.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-collapsibleArea.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-codesnippet.xslt
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\1_404_bullet.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\1_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\2_404_bullet.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\2_404_bullet.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_caution.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_note.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\alert_security.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\CFW.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\close.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\close.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\favicon.ico -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\footer_slice.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\footer_slice.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\info_icon.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\info_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\note.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\online_icon.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\online_icon.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\open.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\open.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pencil.GIF -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\privstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protoperator.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\protstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubclass.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubdelegate.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubenumeration.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubevent.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubextension.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubfield.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubinterface.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubmethod.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\puboperator.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubproperty.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\pubstructure.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\search.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\search_bk.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\search_bk.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\security.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\slMobile.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\static.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabLeftBG.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\tabLeftBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\tabRightBG.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\tabRightBG.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_collapse.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\ui_om_collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\ui_om_expand.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\ui_om_expand.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\icons\xna.gif -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\scripts\branding.js -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-cs-CZ.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-de-DE.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-en-US.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-es-ES.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-fr-FR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-it-IT.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ja-JP.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ko-KR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pl-PL.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-pt-BR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-ru-RU.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-tr-TR.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-CN.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding-zh-TW.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\styles\branding.css -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\styles\branding.css
+Copying help branding...
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/body.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\body.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/head.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\head.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/CodeSnippet.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\CodeSnippet.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/codesnippet-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\codesnippet-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/Identity.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\Identity.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/InstrumentedLink.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\InstrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/instrumentedlink-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\instrumentedlink-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/LanguageSpecificText.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\LanguageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/MultiViewTable-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\MultiViewTable-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/index-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\index-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/search-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\search-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding\dev10.mshc/toc-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\toc-zh-TW.xslt
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website\branding\
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2010\branding -&gt; H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xml -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding.xml
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-cs-CZ.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-cs-CZ.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-de-DE.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-de-DE.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-en-US.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-en-US.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-es-ES.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-es-ES.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-fr-FR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-fr-FR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-it-IT.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-it-IT.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ja-JP.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ja-JP.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ko-KR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ko-KR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pl-PL.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-pl-PL.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-pt-BR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-pt-BR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-ru-RU.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-ru-RU.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-tr-TR.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-tr-TR.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-CN.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-zh-CN.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\branding-zh-TW.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\branding-zh-TW.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-body.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-body.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-head.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-head.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-foot.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-foot.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-collapsibleArea.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-collapsibleArea.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-instrumentedLink.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-instrumentedLink.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-languageSpecificText.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-languageSpecificText.xslt
+    C:\Program Files (x86)\Sandcastle\Presentation\VS2010\branding\ps-codesnippet.xslt -> H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\branding\ps-codesnippet.xslt
+    Last step completed in 00:00:02.2643
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0070
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:02.8609
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0140
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.0556
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [N:Renci.SshNet] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Common] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Compression] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Messages] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Messages.Authentication] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Messages.Connection] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Messages.Transport] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Security] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Security.Cryptography] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Security.Cryptography.Ciphers] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Security.Cryptography.Ciphers.Modes] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Security.Cryptography.Ciphers.Paddings] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Renci.SshNet.Sftp] Missing &lt;summary&gt; documentation
+  Info: Processed 2073 topics
+    Last step completed in 00:05:03.9891
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:00.0560
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.6.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1
+Processed 2073 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\SshNet.Help.hhk
+Saving HTML Help 1 table of contents to H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\SshNet.Help.hhc
+
+Processing website files in H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\Website
+Processed 2073 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to H:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:01:05.5304
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0034
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+SHFB: Warning BE0060: The HtmlHelpName property value &#39;SshNet.Help&#39; contains a comma or &#39;.h&#39; which may cause the Help 1 compiler to fail.
+    Last step completed in 00:00:00.1020
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling h:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\SshNet.Help.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 21 seconds
+  
+  2,075	Topics
+  
+  31,925	Local links
+  
+  14,613	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created h:\Projects\Renci\SshNet\Renci.SshNet\Documentation\Help\Working\Output\HtmlHelp1\SshNet.Help.chm, 3,281,555 bytes
+  
+  Compression decreased file by 20,285,718 bytes.
+  
+    Last step completed in 00:00:23.0999
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:13.7873
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 600 files
+Copied 700 files
+Copied 800 files
+Copied 900 files
+Copied 1000 files
+Copied 1100 files
+Copied 1200 files
+Copied 1300 files
+Copied 1400 files
+Copied 1500 files
+Copied 1600 files
+Copied 1700 files
+Copied 1800 files
+Copied 1900 files
+Copied 2000 files
+Copied 2100 files
+Copied 2175 files for the website content
+    Last step completed in 00:00:24.1656
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:12.9746
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 01/08/2013 11:38 PM.  Total time: 00:07:40.3612
+
+</buildStep>
+</shfbBuild>

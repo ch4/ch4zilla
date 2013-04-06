@@ -50,16 +50,20 @@
 					<RowDefinition/>
 				</Grid.RowDefinitions>
 				<TextBlock TextWrapping="Wrap" Text="Remote" Margin="0,0,0,5" d:LayoutOverrides="Height"/>
-    			<ListBox Grid.Row="1" DataContext="RemoteFiles"/>  	
-			</Grid>
+                <ListView Grid.Row="1" DataContext="{Binding RemoteFiles}">
+					<ListViewItem Content="{Binding Name}"></ListViewItem>
+                </ListView>
+            </Grid>
 			<Grid Grid.Column="2">
 				<Grid.RowDefinitions>
 					<RowDefinition Height="Auto"/>
 					<RowDefinition/>
 				</Grid.RowDefinitions>
     			<TextBlock TextWrapping="Wrap" Text="Queue" VerticalAlignment="Top" Margin="0,0,0,5"/>
-    			<ListBox Grid.Row="1" DataContext="LocalFiles"/>
-    		</Grid>
+                <ListView Grid.Row="1" DataContext="{Binding LocalFiles}">
+                    <ListViewItem Content="{Binding Name}"></ListViewItem>
+                </ListView>
+            </Grid>
 		</Grid>
 	</Grid>
 </Window>

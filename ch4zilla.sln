@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch4zilla-gui", "ch4zilla-gui\ch4zilla-gui.csproj", "{EB4D9D80-0436-4158-9C02-5010F6AFF67C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AAD9BD4-75ED-A9FC-E094-05C1C5260006} = {1AAD9BD4-75ED-A9FC-E094-05C1C5260006}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pageant", "putty-src-win\WINDOWS\MSVC\PAGEANT\pageant.vcxproj", "{48981F87-2AD9-871D-C5D0-5FF3E11A86F6}"
 EndProject
@@ -30,6 +33,21 @@ Global
 		Template|x86 = Template|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Win32.ActiveCfg = Debug|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|x86.ActiveCfg = Debug|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|x86.Build.0 = Debug|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Win32.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|x86.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|x86.Build.0 = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Mixed Platforms.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Mixed Platforms.Build.0 = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Win32.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|x86.ActiveCfg = Release|x86
+		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|x86.Build.0 = Release|x86
 		{48981F87-2AD9-871D-C5D0-5FF3E11A86F6}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{48981F87-2AD9-871D-C5D0-5FF3E11A86F6}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{48981F87-2AD9-871D-C5D0-5FF3E11A86F6}.Debug|Win32.ActiveCfg = Debug|Win32
@@ -135,21 +153,6 @@ Global
 		{97E3F3DD-36B5-9FB0-EC3D-9759084D5279}.Template|Win32.ActiveCfg = Template|Win32
 		{97E3F3DD-36B5-9FB0-EC3D-9759084D5279}.Template|Win32.Build.0 = Template|Win32
 		{97E3F3DD-36B5-9FB0-EC3D-9759084D5279}.Template|x86.ActiveCfg = Template|Win32
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|Win32.ActiveCfg = Debug|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|x86.ActiveCfg = Debug|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Debug|x86.Build.0 = Debug|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Mixed Platforms.Build.0 = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|Win32.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|x86.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Release|x86.Build.0 = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Mixed Platforms.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Mixed Platforms.Build.0 = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|Win32.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|x86.ActiveCfg = Release|x86
-		{EB4D9D80-0436-4158-9C02-5010F6AFF67C}.Template|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

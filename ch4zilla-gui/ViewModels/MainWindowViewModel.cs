@@ -79,6 +79,7 @@ namespace ch4zilla_gui.ViewModels {
 
         #region Command Handlers
         private void OnConnect() {
+
         }
         #endregion
     }
